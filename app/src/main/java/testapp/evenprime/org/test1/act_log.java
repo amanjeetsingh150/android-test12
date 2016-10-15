@@ -37,7 +37,7 @@ public class act_log extends AppCompatActivity {
                         }
                         else
                         {
-                            System.out.print("Invalid Details!!");
+                            Toast.makeText(act_log.this,"Sorry wrong details!!", Toast.LENGTH_SHORT).show()
                         }
                     }
                 }
