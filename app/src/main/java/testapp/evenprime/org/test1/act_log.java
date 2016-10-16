@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class act_log extends AppCompatActivity {
     Button l_login;
@@ -37,7 +38,7 @@ public class act_log extends AppCompatActivity {
                         }
                         else
                         {
-                            System.out.print("Invalid Details!!");
+                            Toast.makeText(act_log.this,"wrong details",Toast.LENGTH_SHORT).show()
                         }
                     }
                 }
